@@ -2,7 +2,12 @@
 
 Standalone Phase 5 prototype package for reviewing alcohol beverage label text against TTB-required label fields and reviewer-provided paperwork data.
 
-This prototype is intentionally local-only:
+The prototype can be run two ways:
+
+- **Local workstation mode:** run on a reviewer computer with no external services required.
+- **Hosted demo mode:** available on Render for take-home evaluation using sample or non-sensitive data only.
+
+The application is intentionally scoped to avoid external government system integration:
 
 - No COLAs Online integration.
 - No Public COLA Registry lookup.
@@ -27,6 +32,18 @@ Supported beverage types:
 - Wine
 
 ## Run The Prototype
+
+### Hosted Demo
+
+Open:
+
+```text
+https://treasurytakehometest.onrender.com
+```
+
+Use sample or non-sensitive test data only on the hosted demo.
+
+### Local Run
 
 ```bash
 python3 app.py
@@ -81,9 +98,11 @@ The app also checks common macOS Homebrew paths such as `/opt/homebrew/bin/tesse
 
 If Tesseract is not installed, the app explains that OCR is unavailable and continues using pasted label text. This keeps the job-test demo dependable without network installs.
 
+The hosted Render demo may not have Tesseract installed, so pasted text and the built-in sample label are the most reliable hosted-demo paths.
+
 ## Security Posture
 
-Phase 4 keeps the prototype simple and safe:
+The local workstation version keeps the prototype simple and safe:
 
 - Runs on `127.0.0.1` only.
 - Processes all data locally.
@@ -92,6 +111,8 @@ Phase 4 keeps the prototype simple and safe:
 - Stores saved review cases in local JSON at `data/cases.json`.
 - Stores generated text reports in `data/reports/`.
 - Avoids logging paperwork field values beyond normal local server access logs.
+
+The hosted Render demo is provided only so evaluators can access and test the prototype quickly. Do not enter real PII, sensitive government data, or non-public label submissions into the hosted demo.
 
 Future phases should replace JSON storage with encrypted case storage, role-based access, stronger audit controls, retention controls, and packaged executable signing.
 

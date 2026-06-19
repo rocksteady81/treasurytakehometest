@@ -2,7 +2,7 @@
 
 ## Opening
 
-This prototype is a standalone, local-only label screening tool for TTB-style alcohol beverage label review. It does not integrate with COLAs Online or any external system. For the prototype, reviewer-provided paperwork data is entered locally and compared against OCR or pasted label text.
+This prototype is a standalone label screening tool for TTB-style alcohol beverage label review. It does not integrate with COLAs Online or any external government system. For the prototype, reviewer-provided paperwork data is compared against OCR or pasted label text. It can run locally on a workstation, and a hosted Render demo is available for evaluation with sample or non-sensitive data.
 
 ## Problem Statement
 
@@ -24,7 +24,7 @@ TTB reviews a high volume of alcohol beverage labels each year. The goal of this
 
 3. Point out the readiness cards:
 
-   - Local-only processing.
+   - No COLA integration or external government system calls.
    - No COLA integration.
    - Tesseract OCR availability.
    - Save case and report workflow.
@@ -83,4 +83,3 @@ For this prototype, the requirement is to compare labels against supplied paperw
 ### What would production need?
 
 Encrypted storage, formal audit logs, role-based access control, retention policy enforcement, signed packaging, accessibility testing, and validation against a large labeled test set.
-

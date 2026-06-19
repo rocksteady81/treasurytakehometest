@@ -37,7 +37,7 @@ Phase 5 is complete.
 - Allows reviewer decision and notes.
 - Saves review cases locally to generated `data/cases.json`.
 - Generates local text reports in generated `data/reports/`.
-- Shows Phase 4 readiness cards in the UI.
+- Shows Phase 5 readiness cards in the UI.
 - Detects Tesseract through `PATH` and common macOS Homebrew locations.
 
 ## Validation Completed

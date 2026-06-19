@@ -320,6 +320,7 @@ def render_form(
     case_list = render_case_list()
     case_id_input = f'<input type="hidden" name="case_id" value="{escape(case_id)}">' if case_id else ""
     ocr_status = tesseract_status()
+    processing_label = "Render demo: sample data only" if os.environ.get("PORT") else "Local workstation mode"
     html_doc = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -372,7 +373,7 @@ def render_form(
 <body>
   <header>
     <h1>TTB Label Compliance Prototype</h1>
-    <div>Phase 4 presentation build · local-only · reviewer-assisted compliance screening</div>
+    <div>Phase 5 submission build · reviewer-assisted compliance screening</div>
     <div class="navlinks">
       <a href="#review">Run Review</a>
       <a href="#results">Results</a>
@@ -382,7 +383,7 @@ def render_form(
   <main>
     <section class="cards" aria-label="Prototype readiness summary">
       <div class="metric"><strong>Scope</strong><span>No COLA integration</span></div>
-      <div class="metric"><strong>Processing</strong><span>Local-only</span></div>
+      <div class="metric"><strong>Processing</strong><span>{escape(processing_label)}</span></div>
       <div class="metric"><strong>OCR</strong><span>{escape(ocr_status)}</span></div>
       <div class="metric"><strong>Workflow</strong><span>Save case + report</span></div>
     </section>
@@ -667,7 +668,7 @@ def main() -> int:
     display_host = "127.0.0.1" if HOST == "0.0.0.0" else HOST
     url = f"http://{display_host}:{PORT}"
     print(f"TTB Label Compliance Prototype running at {url}")
-    print("Press Ctrl+C to stop. Processing is local-only.")
+    print("Press Ctrl+C to stop. No external government systems are contacted.")
     if "--no-browser" not in sys.argv:
         webbrowser.open(url)
     try:

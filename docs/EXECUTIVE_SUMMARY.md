@@ -26,7 +26,7 @@ TTB reviews a high volume of alcohol beverage labels each year. A reviewer-assis
 
 The prototype is intentionally scoped for a secure job-test demonstration:
 
-- Runs as a standalone local app.
+- Runs as a standalone local app, with a hosted demo available for evaluation.
 - Uses reviewer-provided paperwork data.
 - Does not integrate with COLAs Online.
 - Does not query the Public COLA Registry.
@@ -49,13 +49,15 @@ The prototype is intentionally scoped for a secure job-test demonstration:
 
 ## Security Posture
 
-The prototype uses a local-only design:
+The prototype is designed to run locally for sensitive or realistic review scenarios:
 
 - Binds to `127.0.0.1`.
 - Processes label text and images locally.
 - Does not transmit data to external systems.
 - Stores generated case data locally.
 - Treats OCR output as reviewer assistance, not final legal determination.
+
+The public Render deployment is intended for sample-data evaluation only. Real PII, sensitive government data, and non-public label submissions should not be entered into the hosted demo.
 
 For production, the design should add encrypted storage, role-based access control, formal audit logs, retention controls, signed packaging, and agency-approved deployment.
 
@@ -67,4 +69,3 @@ For production, the design should add encrypted storage, role-based access contr
 4. Add reviewer role management.
 5. Package as a signed desktop application.
 6. Measure reviewer time saved and accuracy on a labeled test set.
-

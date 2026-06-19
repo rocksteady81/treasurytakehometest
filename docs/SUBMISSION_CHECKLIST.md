@@ -6,7 +6,7 @@ Use this before sending or presenting the prototype.
 
 - [ ] Start the app with `python3 app.py` or `run.command`.
 - [ ] Confirm the browser opens to `http://127.0.0.1:8765`.
-- [ ] Confirm Phase 4 readiness cards appear.
+- [ ] Confirm Phase 5 readiness cards appear.
 - [ ] Confirm Tesseract status appears in the OCR card.
 
 ## Demo Check
@@ -36,10 +36,9 @@ Use this before sending or presenting the prototype.
 
 ## Talking Points
 
-- [ ] Local-only processing.
+- [ ] No COLA integration or external government system calls.
 - [ ] No COLA integration.
 - [ ] Reviewer-provided paperwork data.
 - [ ] Tesseract OCR is local and optional.
 - [ ] Reviewer-in-the-loop design.
 - [ ] Production path includes encryption, RBAC, audit logs, and signed packaging.
-
