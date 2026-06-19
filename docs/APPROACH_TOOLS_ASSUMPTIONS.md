@@ -24,6 +24,7 @@ The prototype currently supports distilled spirits, malt beverages, and wine. It
 - **HTML/CSS:** Browser-based reviewer interface.
 - **JSON:** Local prototype storage for saved review cases.
 - **unittest:** Automated tests for core validation behavior.
+- **OpenAI Codex:** Used as a coding assistant to help plan, implement, document, test, and package the prototype.
 - **GitHub:** Public source code repository.
 - **Render:** Public hosted demo deployment.
 
@@ -50,4 +51,3 @@ The public Render deployment exists only so evaluators can quickly access and te
 
 - Source code repository: `https://github.com/rocksteady81/treasurytakehometest`
 - Deployed demo: `https://treasurytakehometest.onrender.com`
-
