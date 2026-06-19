@@ -16,6 +16,7 @@ Phase 5 is complete.
 - `docs/DEMO_SCRIPT.md` — interview demo script and likely Q&A.
 - `docs/SECURITY_ARCHITECTURE.md` — security architecture note for government computers.
 - `docs/EXECUTIVE_SUMMARY.md` — concise summary for evaluators.
+- `docs/APPROACH_TOOLS_ASSUMPTIONS.md` — brief documentation requested by the submission form.
 - `docs/ARCHITECTURE.md` — architecture and workflow diagrams.
 - `docs/SUBMISSION_CHECKLIST.md` — final pre-submission checklist.
 - `docs/DEPLOYMENT.md` — GitHub + Render deployment guide.

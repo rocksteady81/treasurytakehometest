@@ -25,6 +25,7 @@ Use this before sending or presenting the prototype.
 
 - [ ] `README.md`
 - [ ] `docs/EXECUTIVE_SUMMARY.md`
+- [ ] `docs/APPROACH_TOOLS_ASSUMPTIONS.md`
 - [ ] `docs/DEMO_SCRIPT.md`
 - [ ] `docs/SECURITY_ARCHITECTURE.md`
 - [ ] `docs/ARCHITECTURE.md`

@@ -148,6 +148,7 @@ The take-home form asks for a public deployed application URL. Use:
 - `docs/DEMO_SCRIPT.md` — interview demo talk track.
 - `docs/SECURITY_ARCHITECTURE.md` — local-only security architecture note.
 - `docs/EXECUTIVE_SUMMARY.md` — concise project overview for reviewers.
+- `docs/APPROACH_TOOLS_ASSUMPTIONS.md` — brief documentation of approach, tools used, and assumptions.
 - `docs/ARCHITECTURE.md` — Mermaid architecture and workflow diagrams.
 - `docs/SUBMISSION_CHECKLIST.md` — final pre-submission checklist.
 - `docs/DEPLOYMENT.md` — GitHub and Render deployment instructions.
