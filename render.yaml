@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ttb-label-compliance-prototype
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python3 app.py --no-browser"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#f8f1df"/>
+  <rect x="70" y="70" width="760" height="1060" rx="34" fill="#fffaf0" stroke="#2b2118" stroke-width="8"/>
+  <rect x="110" y="110" width="680" height="980" rx="18" fill="none" stroke="#8a6a37" stroke-width="3"/>
+  <text x="450" y="210" text-anchor="middle" font-family="Georgia, serif" font-size="58" font-weight="bold" fill="#1f2937">OLD TOM</text>
+  <text x="450" y="275" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#1f2937">DISTILLERY</text>
+  <line x1="180" y1="330" x2="720" y2="330" stroke="#8a6a37" stroke-width="4"/>
+  <text x="450" y="410" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#1f2937">Kentucky Straight</text>
+  <text x="450" y="458" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#1f2937">Bourbon Whiskey</text>
+  <text x="450" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#1f2937">45% Alc./Vol. (90 Proof)</text>
+  <text x="450" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#1f2937">750 mL</text>
+  <text x="450" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#1f2937">Bottled by Old Tom Distillery, Louisville, KY</text>
+  <rect x="135" y="780" width="630" height="220" rx="10" fill="#fff" stroke="#2b2118" stroke-width="2"/>
+  <text x="450" y="830" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937">GOVERNMENT WARNING:</text>
+  <text x="160" y="875" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">According to the Surgeon General, women should not drink</text>
+  <text x="160" y="905" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">alcoholic beverages during pregnancy because of the risk of</text>
+  <text x="160" y="935" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">birth defects. Consumption of alcoholic beverages impairs your</text>
+  <text x="160" y="965" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">ability to drive a car or operate machinery, and may cause</text>
+  <text x="160" y="995" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">health problems.</text>
+</svg>
